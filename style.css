@@ -126,6 +126,10 @@ body.admin-bar .navbar-fixed-top {
 	border-color: #fff;
 }
 
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
 /*-------------------------------------------------------------------------*/
 /*	footer
 /*-------------------------------------------------------------------------*/
@@ -337,6 +341,9 @@ video {
 .page-template-page-homepage-php #main article {
 	margin-bottom: 0;
 }
+.home-widget-area {
+	margin-top: 30px;
+}
 
 .hero-unit h1 {
 	font-size: 3em;
@@ -387,10 +394,6 @@ p.logged-in-as {
     margin-top: 2em;
     position: relative;
     padding-left: 116px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    -o-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
     border: 1px solid rgba(0, 0, 0, 0);
     border-color: #DDD;
 }

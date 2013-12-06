@@ -97,21 +97,24 @@ Template Name: Homepage
 							<div class="col-md-12">
 						
 								<?php the_content(); ?>
-								
-									<div class="col-md-4 home-widget">
-										<?php dynamic_sidebar('home1'); ?>
-									</div>
-
-									<div class="col-md-4 home-widget">	
-										<?php dynamic_sidebar('home2'); ?>
-									</div>	
-									
-									<div class="col-md-4 home-widget">
-										<?php dynamic_sidebar('home3');  ?>
-									</div>
 
 							</div>
 							
+							<div class="col-md-12 home-widget-area">
+
+								<div class="col-md-4 home-widget">
+									<?php dynamic_sidebar('home1'); ?>
+								</div>
+
+								<div class="col-md-4 home-widget">	
+									<?php dynamic_sidebar('home2'); ?>
+								</div>	
+								
+								<div class="col-md-4 home-widget">
+									<?php dynamic_sidebar('home3');  ?>
+								</div>	
+								
+							</div>
 													
 						</section> <!-- end article header -->
 						
