@@ -1,6 +1,9 @@
 infinitum
 =========
 
+![Infinitum preview](http://i.imgur.com/OVNVjEs.png)
+
+
 WordPress theme based on Bootstrap 3, Bones and Options Framework
 
 Coming soon: 
