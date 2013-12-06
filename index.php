@@ -31,8 +31,8 @@
 							
 							<div class="page-header"><h2 class="post-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2></div>
 													
-							<p class="meta"><span class="glyphicon glyphicon-time"></span> <time datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_date(); ?></time> <span class="glyphicon glyphicon-user"></span> <?php the_author_posts_link(); ?> <span class="glyphicon glyphicon-folder-open"></span> <?php the_category(', '); ?>.</p>
-						
+							<p class="meta"><span class="glyphicon glyphicon-time"></span> <?php the_date(); ?> <span class="glyphicon glyphicon-user"></span> <?php the_author_posts_link(); ?> <span class="glyphicon glyphicon-folder-open"></span> <?php the_category(', '); ?>.</p>
+
 						</header> <!-- end article header -->
 					
 						<section class="post_content clearfix">
